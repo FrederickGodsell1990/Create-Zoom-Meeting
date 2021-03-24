@@ -2,19 +2,6 @@ const axios = require("axios").default;
 require("dotenv").config();
 const fs = require("fs");
 
-// Headers/query strings for obtaining original access token/refresh tokens from Zoom/Oauth. Keep commented out unless an original access code is required
-
-// const oathOptions = {
-//   headers: {
-//     Authorization:
-//       "Basic " +
-//       Buffer.from(process.env.ID + ":" + process.env.SECRET).toString("base64"),
-//   },
-//   params: {
-//     grant_type: "authorization_code",
-//     code: process.env.AUTH_CODE,
-//   },
-// };
 
 // pulling in JSON file that contains most recent refresh code
 
